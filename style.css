@@ -47,9 +47,10 @@ p {
 }
 
 .headshot {
+.headshot {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border: 3px solid #FFFFFF; /* White border */
     margin-bottom: 10px;
 }
 
