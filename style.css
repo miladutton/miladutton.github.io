@@ -92,24 +92,29 @@ section {
     padding: 50px 0;
     border-bottom: 1px solid #ccc;
 }
-/* Social Icons */
+
 .social-icons {
     display: flex;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 15px; /* Adds space between each icon */
+    margin-top: 20px; /* Adds space between the icons and the navigation */
 }
 
 .icon-link {
-    color: #404141; /* Default icon color */
-    font-size: 1.5em; /* Adjust icon size */
-    text-decoration: none;
-    transition: color 0.3s;
+    color: #404141; /* Sets icon color to grey */
+    font-size: 1.5em; /* Increases icon size */
+    transition: color 0.3s ease, transform 0.3s ease; /* Adds transition effects for hover */
 }
 
 .icon-link:hover {
-    color: #587070; /* Change color on hover */
+    color: #587070; /* Changes color on hover */
+    transform: scale(1.2); /* Slightly enlarges icon on hover */
 }
 
-.subsection {
-    margin-top: 20px;
+.icon-link i {
+    filter: grayscale(100%); /* Makes icons greyscale */
+    transition: filter 0.3s ease; /* Smooth transition for greyscale effect */
+}
+
+.icon-link:hover i {
+    filter: grayscale(0%); /* Removes greyscale effect on hover */
 }
