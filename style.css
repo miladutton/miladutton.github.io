@@ -46,12 +46,11 @@ p {
     padding-top: 20px;
 }
 
-.headshot {
-.headshot {
-    width: 100px;
-    height: 100px;
-    border: 3px solid #FFFFFF; /* White border */
-    margin-bottom: 10px;
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 .sidebar h1 {
